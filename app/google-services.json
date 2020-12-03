@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "500942306860",
+    "firebase_url": "https://digi-id-64ece.firebaseio.com",
+    "project_id": "digi-id-64ece",
+    "storage_bucket": "digi-id-64ece.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:500942306860:android:533de4089a5aadaf70db89",
+        "android_client_info": {
+          "package_name": "com.BSCS501.digi_id"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "500942306860-at5ik4fb8g8822me9vsobbmlgqq518hm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDfI_xImR6SvM00sysskAnSgJj6jO86Tts"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "500942306860-at5ik4fb8g8822me9vsobbmlgqq518hm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

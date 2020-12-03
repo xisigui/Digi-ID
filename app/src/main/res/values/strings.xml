@@ -1,0 +1,16 @@
+<resources>
+
+    <string name="registration">registration</string>
+    <string name="sending_otp">sending_otp</string>
+    <string name="enter_mobile_number">enter_mobile_number</string>
+    <string name="enter_otp">enter_otp</string>
+    <string name="resend">resend</string>
+    <string name="next">next</string>
+    <string name="digi_id">Digi-ID</string>
+    <string name="_91_714221224">+91 714221224</string>
+    <string name="name">Name</string>
+    <string name="phone">Phone</string>
+    <string name="bikash_thapa">Bikash Thapa</string>
+    <string name="email">Email</string>
+    <string name="bikash_smallacademy_co">bikash@smallacademy.co</string>
+</resources>
