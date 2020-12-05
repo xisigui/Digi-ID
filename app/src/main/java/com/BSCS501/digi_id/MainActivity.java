@@ -26,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
     FirebaseFirestore fstore;
     TextView pname, pemail, pPhone;
     Button logout;
+    Button camsnap;
 
 
     @Override
@@ -53,9 +54,27 @@ public class MainActivity extends AppCompatActivity {
                     pPhone.setText(Fauth.getCurrentUser().getPhoneNumber());
                 }
 
+
+                camsnap = findViewById(R.id.enrol);
+                camsnap.setOnClickListener(new View.OnClickListener(){
+
+                    @Override
+                    public void onClick(View view) {
+                        switchActivites();
+                    }
+                });
             }
         });
         }
+
+        private void switchActivites() {
+            Intent swapIntent = new Intent (this, CamSnap.class);
+            startActivity(swapIntent);
+
+        }
+
+
+
     public void btnlogout(View view) {
         FirebaseAuth.getInstance().signOut();
         startActivity(new Intent(getApplicationContext(),Registration.class));
